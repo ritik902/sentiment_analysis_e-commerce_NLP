@@ -20,7 +20,7 @@ with open('ML_Project_NLP/tokenizer.pickle', 'rb') as handle:
     tokenizer = joblib.load(handle)
 
 # Load data
-df = pd.read_csv('flipkart_streamlit.csv')
+df = pd.read_csv('ML_Project_NLP/flipkart_streamlit.csv')
 
 st.header('Real-Time Sentiment Prediction')
 user_input = st.text_input('Enter a review:', '')
