@@ -1,8 +1,9 @@
 streamlit
-tensorflow
+tensorflow==2.10.0
 joblib
 pandas
 numpy
 matplotlib
 wordcloud
 plotly
+setuptools
