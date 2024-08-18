@@ -16,7 +16,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Load the model from the SavedModel directory
 lstm_model = tf.keras.models.load_model('ML_Project_NLP/lstm_model.keras')
 # Load the tokenizer used during training
-with open('tokenizer.pickle', 'rb') as handle:
+with open('ML_Project_NLP/tokenizer.pickle', 'rb') as handle:
     tokenizer = joblib.load(handle)
 
 # Load data
